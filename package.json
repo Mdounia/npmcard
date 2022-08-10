@@ -1,16 +1,15 @@
 {
-  "name": "bitandbang",
+  "name": "mdounia",
   "version": "2.1.1",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Dounia Maziane",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "mdounia": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/Mdounia/npmcard.git"
   },
-  "homepage": "https://bnb.im",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -25,7 +24,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Dounia Maziane <maziane.dounia@gmail.com>",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -37,7 +36,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/Mdounia/npmcard/issues"
   },
   "dependencies": {}
 }
